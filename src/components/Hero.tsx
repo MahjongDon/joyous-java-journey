@@ -52,7 +52,7 @@ const Hero = () => {
         className="relative z-20 text-center px-6 max-w-3xl fade-in-section"
       >
         <div className="inline-block mb-4 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full">
-          <span className="text-white text-sm font-medium">Crafted with love since 2023</span>
+          <span className="text-white text-sm font-medium">Forged with love since 2023</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-tight">
           Welcome to Joe's Coffee Shop
