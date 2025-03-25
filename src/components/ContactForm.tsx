@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "@/hooks/use-toast";
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -71,7 +71,8 @@ const ContactForm = () => {
       console.log('Form data:', { name, email, message });
       
       // Show success message
-      toast.success("Message sent successfully!", {
+      toast({
+        title: "Message sent successfully!",
         description: "We'll get back to you as soon as possible."
       });
       
